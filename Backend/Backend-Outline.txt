@@ -1,0 +1,21 @@
+backend/
+├── config/
+│   └── db.js          # MongoDB connection setup
+├── controllers/
+│   ├── authController.js
+│   ├── rideController.js
+│   └── driverController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   ├── User.js
+│   ├── Driver.js
+│   └── Ride.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── rideRoutes.js
+│   └── driverRoutes.js
+├── utils/
+│   └── mapUtils.js    # For geolocation and distance calculations
+├── .env
+├── server.js
